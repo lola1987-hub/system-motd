@@ -5,7 +5,7 @@
 
 - name: deliver motd file
   template:
-    src: /root/system-motd/templates/motd.j2
+    src: /ansible/system-motd/templates/motd.j2
     dest: /etc/motd
     owner: root
     group: root
